@@ -1,8 +1,8 @@
 {
-  "name": "zl-button",
+  "name": "zl-badge",
   "version": "1.0.0",
-  "description": "Ziroh Labs button styling for mobile applications",
-  "main": "Button.styles.ts",
+  "description": "Badge Demo",
+  "main": "badge.component.tsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,10 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/rizwan-zl/zl-btn.git"
   },
-  "keywords": [
-    "button"
-  ],
-  "author": "Ziroh Labs",
+  "author": "Rizwan",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/rizwan-zl/zl-btn/issues"
@@ -21,6 +18,6 @@
   "homepage": "https://github.com/rizwan-zl/zl-btn#readme",
   "peerDependencies": {
     "react": "18.2.0",
-    "react-native": "0.71.7"
+    "react-native": "0.71.7",
   }
 }
