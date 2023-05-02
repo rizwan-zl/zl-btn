@@ -18,6 +18,6 @@
   "homepage": "https://github.com/rizwan-zl/zl-btn#readme",
   "peerDependencies": {
     "react": "18.2.0",
-    "react-native": "0.71.7",
+    "react-native": "0.71.7"
   }
 }
