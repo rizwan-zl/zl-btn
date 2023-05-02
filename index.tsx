@@ -8,7 +8,7 @@ type BadgeProps = {
     badgeType: BadgeType
 }
 
-export const index = (props: BadgeProps) => {
+export const Index = (props: BadgeProps) => {
     const count = props.count;
     const badgeType = props.badgeType;
     return (
