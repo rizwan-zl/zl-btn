@@ -2,7 +2,7 @@
   "name": "zl-badge",
   "version": "1.0.0",
   "description": "Badge Demo",
-  "main": "badge.component.tsx",
+  "main": "index.tsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
