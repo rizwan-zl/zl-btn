@@ -9,7 +9,7 @@ type BadgeProps = {
     badgeType: BadgeType
 }
 
-const BadgeComponent = (props: BadgeProps) => {
+export default function BadgeComponent (props: BadgeProps){
     const count = props.count;
     const badgeType = props.badgeType;
     return (
@@ -20,5 +20,3 @@ const BadgeComponent = (props: BadgeProps) => {
         </View>
     )
 }
-
-export default BadgeComponent;
