@@ -9,7 +9,7 @@ type BadgeProps = {
     badgeType: BadgeType
 }
 
-export default function BadgeComponent (props: BadgeProps){
+export const BadgeComponent = (props: BadgeProps) => {
     const count = props.count;
     const badgeType = props.badgeType;
     return (
